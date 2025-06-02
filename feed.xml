@@ -1,66 +1,99 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Sapicic Daily Bulletin – June Edition</title>
-    <link>https://sapicicgov.wordpress.com</link>
-    <description>Official news from the United Republic of Sapicic – powered by vibes, regulated by aesthetics.</description>
+    <title>📰 United Republic of Sapicic — June Bulletin</title>
+    <link>https://sapicic.gov/news</link>
+    <description>Sapicic Daily Bulletin — Broadcast from Sky Dome Studios, Central Heights</description>
     <language>en-us</language>
-    <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+    <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 10:00:00 GMT</lastBuildDate>
 
     <item>
       <title>🏦 Sapicic International Bank Enters Public Beta</title>
-      <link>https://sapicicgov.wordpress.com/news/sib-beta</link>
-      <description>June 8 marks the public beta launch of Sapicic International Bank (SIB)! Fully digital, fully extra — with biometric vibe scans and budgeting alerts.</description>
-      <pubDate>Sun, 01 Jun 2025 10:01:00 +0000</pubDate>
+      <link>https://sapicic.gov/news/sib-launch</link>
+      <description><![CDATA[
+        June 8 marks the public beta launch of Sapicic International Bank (SIB)!<br/>
+        Fully digital, fully extra — with biometric vibe scans and budgeting alerts.<br/>
+        <i>“Physical banks are so last season,” says the SIB CEO.</i>
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>🚇 Central Heights Metro Expands with New Lines</title>
-      <link>https://sapicicgov.wordpress.com/news/chcm-phase2</link>
-      <description>Phase 2 of the Central Heights City Metro (CHCM) is live! New maglev lines and immersive light art turn every commute into a gallery experience.</description>
-      <pubDate>Sun, 01 Jun 2025 10:02:00 +0000</pubDate>
+      <link>https://sapicic.gov/news/metro-expansion</link>
+      <description><![CDATA[
+        Phase 2 of the Central Heights City Metro (CHCM) is live! 🚆✨<br/>
+        Brand new lines have opened, connecting many areas.<br/>
+        <i>“Maglev trains and immersive light art — your commute is now a gallery.”</i>
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
-      <title>🧪 Creative Q.L.E.D. Zones Coming to Riversong</title>
-      <link>https://sapicicgov.wordpress.com/news/qled-zones</link>
-      <description>Experimental Creative and Q.L.E.D. Zones launch in Riversong, featuring glowing roads, semi-sentient lampposts, and cafés that accept poetry as currency.</description>
-      <pubDate>Sun, 01 Jun 2025 10:03:00 +0000</pubDate>
+      <title>🧪 Creative & Q.L.E.D. Zones Coming to Riversong</title>
+      <link>https://sapicic.gov/news/qled-zones</link>
+      <description><![CDATA[
+        Q.L.E.D. Zones (Questionably Labeled Experimental Districts), and Creative Zones are coming!<br/>
+        Designed for creators, innovators, and mildly confused intellectuals.<br/>
+        🏙️ Expect: Glowing roads, semi-sentient lampposts, cafés that accept poetry as payment.
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
-      <title>📈 Stock Market Launching This Month</title>
-      <link>https://sapicicgov.wordpress.com/news/sapicic-stock</link>
-      <description>Invest in local legends like TSPPL, IRND, and ZSI. Here, vibes outperform profit margins. 💸</description>
-      <pubDate>Sun, 01 Jun 2025 10:04:00 +0000</pubDate>
+      <title>📈 Stock Market Going Live This Month</title>
+      <link>https://sapicic.gov/news/stock-launch</link>
+      <description><![CDATA[
+        Sapicic’s stock exchange is launching!<br/>
+        Invest in vibes, not just profit. Notable listings include:<br/>
+        • TSPPL – Tranquillità Sound Proofing Private Limited<br/>
+        • IRND – Innovate RND Private Limited<br/>
+        • ZSI – Zuihei Shipment Inc<br/>
+        <i>“Here, vibes outperform profit margins.” – Minister of Treasury</i>
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>📐 Aesthetic Compliance Code Rolls Out</title>
-      <link>https://sapicicgov.wordpress.com/news/aesthetic-code</link>
-      <description>Starting June 7, all cities must reduce chaos per block and align to Sapicic's Aesthetic Compliance Code. Stylish order incoming.</description>
-      <pubDate>Sun, 01 Jun 2025 10:05:00 +0000</pubDate>
+      <link>https://sapicic.gov/news/aesthetic-code</link>
+      <description><![CDATA[
+        Starting June 7, every city must follow the new Aesthetic Compliance Code,<br/>
+        ensuring street design unity and minimum ✨chaos per block✨.
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>🎓 Students Demand Curriculum Overhaul</title>
-      <link>https://sapicicgov.wordpress.com/news/student-protests</link>
-      <description>Avaneesh University students demand more structured, creative syllabi. “More drawing classes, fewer disconnected metaphors.”</description>
-      <pubDate>Sun, 01 Jun 2025 10:06:00 +0000</pubDate>
+      <link>https://sapicic.gov/news/education-reform</link>
+      <description><![CDATA[
+        Avaneesh University students are protesting for standardized creative education.<br/>
+        🗣️ “More drawing classes, fewer disconnected metaphors,” says one frustrated student.
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>🌿 Purple Line Delayed by Rogue Plant</title>
-      <link>https://sapicicgov.wordpress.com/news/purple-line-disruption</link>
-      <description>A plant at Botanic Center shut down the Purple Line and now stars in an art piece titled ‘Flora vs. Infrastructure.’</description>
-      <pubDate>Sun, 01 Jun 2025 10:07:00 +0000</pubDate>
+      <link>https://sapicic.gov/news/rogue-plant</link>
+      <description><![CDATA[
+        Botanic Center Station shutdown due to an aggressively overgrown plant!<br/>
+        🌱 It now stars in an art piece titled <i>“Flora vs. Infrastructure.”</i>
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
     <item>
       <title>🏠 Leaked Housing Code Sparks Debate</title>
-      <link>https://sapicicgov.wordpress.com/news/housing-leak</link>
-      <description>Leaked Artistic Compliance Code draft suggests banning rentals in favor of homeownership. Critics say ‘unhinged utopia.’</description>
-      <pubDate>Sun, 01 Jun 2025 10:08:00 +0000</pubDate>
+      <link>https://sapicic.gov/news/housing-debate</link>
+      <description><![CDATA[
+        Leaked Artistic Compliance Code may ban rentals, requiring home ownership.<br/>
+        Critics: “Unhinged utopia.”<br/>
+        Supporters: “Down with shipping container minimalism.”
+      ]]></description>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 GMT</pubDate>
     </item>
 
   </channel>
