@@ -1,104 +1,289 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sapicic News</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapicic National Color Palette</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #f9f9f9;
-      color: #1a1a1a;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 20px;
+    :root {
+      --bg-light: #f9f9f9;
+      --bg-dark: #1f1f1f;
+      --text-light: #333;
+      --text-dark: #f0f0f0;
+      --card-bg: #ffffff;
+      --card-bg-dark: #2b2b2b;
     }
 
-    header {
-      text-align: center;
-      border-bottom: 2px solid #ddd;
-      margin-bottom: 40px;
-      padding-bottom: 10px;
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-light);
+      color: var(--text-light);
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode {
+      background: var(--bg-dark);
+      color: var(--text-dark);
     }
 
     h1 {
-      font-weight: 800;
-      font-size: 1.75rem;
-      margin-bottom: 5px;
+      font-weight: 900;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
     }
 
-    h2 {
-      font-weight: 600;
+    .toggle-btn {
+      display: block;
+      margin: 0 auto 2rem;
+      padding: 0.5rem 1.2rem;
+      background: #333;
+      color: #fff;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .swatch {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      background: var(--card-bg);
+      transition: all 0.3s ease;
+    }
+
+    .dark-mode .swatch {
+      background: var(--card-bg-dark);
+    }
+
+    .color-block {
+      height: 140px;
+    }
+
+    .text-block {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .color-name {
+      font-weight: 700;
       font-size: 1.1rem;
-      margin-top: 40px;
-      margin-bottom: 5px;
+      margin-bottom: 0.5rem;
     }
 
-    a {
-      color: #1a1a1a;
-      text-decoration: none;
+    .color-hex {
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      cursor: pointer;
     }
 
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .date {
-      color: #666;
+    .color-pms {
       font-size: 0.9rem;
-    }
-
-    .news-item {
-      margin-bottom: 30px;
+      color: #666;
     }
   </style>
 </head>
-<body>
-  <header>
-    <h1>📰 Breaking News from Sapicic</h1>
-  </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapicic National Color Palette</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .swatch {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    .color-block {
+      height: 140px;
+    }
+    .text-block {
+      padding: 1rem;
+      background: white;
+      text-align: center;
+    }
+    .color-name {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .color-hex {
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+    }
+    .color-pms {
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head><body>
+  <h1>Sapicic National Color Palette</h1>
+  <div class="grid">
+    <!-- Template for each color -->
+    <!-- Repeat this block with actual color values -->
+    <div class="swatch">
+      <div class="color-block" style="background: #7FAE57;"></div>
+      <div class="text-block">
+        <div class="color-name">Sapicic Green</div>
+        <div class="color-hex">#7FAE57</div>
+        <div class="color-pms">PMS 368 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/sib-launch">🏦 1. Sapicic International Bank Enters Public Beta</a></h2>
-    <p>Fully digital, fully extra — with biometric vibe scans and budgeting alerts.<br>
-    <em>“Physical banks are so last season,” says the SIB CEO.</em></p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #C5E6A6;"></div>
+      <div class="text-block">
+        <div class="color-name">Light Sapicic</div>
+        <div class="color-hex">#C5E6A6</div>
+        <div class="color-pms">PMS 358 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/metro-expansion">🚇 2. Central Heights Metro Expands with New Lines</a></h2>
-    <p>Maglev trains and immersive light art — your commute is now a gallery.</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #2A4312;"></div>
+      <div class="text-block">
+        <div class="color-name">Dark Sapicic</div>
+        <div class="color-hex">#2A4312</div>
+        <div class="color-pms">PMS 350 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/qled-zones">🧪 3. Creative & Q.L.E.D. Zones Coming to Riversong</a></h2>
-    <p>Glowing roads, semi-sentient lampposts, and cafés that accept payment in poetry.</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #201547;"></div>
+      <div class="text-block">
+        <div class="color-name">Sapicic Indigo</div>
+        <div class="color-hex">#201547</div>
+        <div class="color-pms">PMS 2756 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/stock-launch">📈 4. Stock Market Going Live This Month</a></h2>
-    <p>“Here, vibes outperform profit margins.” – Minister of Treasury</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #FF6F40;"></div>
+      <div class="text-block">
+        <div class="color-name">Papaya Flame</div>
+        <div class="color-hex">#FF6F40</div>
+        <div class="color-pms">PMS 2026 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/aesthetic-code">📐 5. Aesthetic Compliance Code Rolls Out</a></h2>
-    <p>Ensuring street design unity and minimum ✨chaos per block✨.</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #A8D5BA;"></div>
+      <div class="text-block">
+        <div class="color-name">Verdant Mist</div>
+        <div class="color-hex">#A8D5BA</div>
+        <div class="color-pms">PMS 2244 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/2025/06/02/students-demand-curriculum-overhaul/">🎓 6. Students Demand Curriculum Overhaul</a></h2>
-    <p>“More drawing classes, fewer disconnected metaphors.”</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #FFC800;"></div>
+      <div class="text-block">
+        <div class="color-name">Solar Gold</div>
+        <div class="color-hex">#FFC800</div>
+        <div class="color-pms">PMS 1235 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/2025/06/02/purple-line-delayed-by-rogue-plant/">🌿 7. Purple Line Delayed by Rogue Plant</a></h2>
-    <p>The plant now stars in an art piece titled “Flora vs. Infrastructure.”</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #75787B;"></div>
+      <div class="text-block">
+        <div class="color-name">Concrete Moon</div>
+        <div class="color-hex">#75787B</div>
+        <div class="color-pms">Cool Gray 9 C</div>
+      </div>
+    </div>
 
-  <section class="news-item">
-    <h2><a href="https://sapicicgov.wordpress.com/2025/06/02/leak-of-the-next-acc-draft-suggests-the-downfall-of-tenants/">🏠 8. Leaked Housing Code Sparks Debate</a></h2>
-    <p>Critics: “Unhinged utopia.”<br>Supporters: “Down with shipping container minimalism.”</p>
-  </section>
+    <div class="swatch">
+      <div class="color-block" style="background: #F3F2F1;"></div>
+      <div class="text-block">
+        <div class="color-name">Porcelain White</div>
+        <div class="color-hex">#F3F2F1</div>
+        <div class="color-pms">PMS 663 C</div>
+      </div>
+    </div>
 
-</body>
-</html>
+    <div class="swatch">
+      <div class="color-block" style="background: #3BB2D0;"></div>
+      <div class="text-block">
+        <div class="color-name">Acrylic Blue</div>
+        <div class="color-hex">#3BB2D0</div>
+        <div class="color-pms">PMS 2171 C</div>
+      </div>
+    </div>
+
+    <div class="swatch">
+      <div class="color-block" style="background: #E03C31;"></div>
+      <div class="text-block">
+        <div class="color-name">Thread Red</div>
+        <div class="color-hex">#E03C31</div>
+        <div class="color-pms">PMS 7625 C</div>
+      </div>
+    </div>
+
+    <div class="swatch">
+      <div class="color-block" style="background: #101820;"></div>
+      <div class="text-block">
+        <div class="color-name">Ink Coal</div>
+        <div class="color-hex">#101820</div>
+        <div class="color-pms">PMS Black 6 C</div>
+      </div>
+    </div>
+
+    <div class="swatch">
+      <div class="color-block" style="background: #825E84;"></div>
+      <div class="text-block">
+        <div class="color-name">Evening Mauve</div>
+        <div class="color-hex">#825E84</div>
+        <div class="color-pms">PMS 7665 C</div>
+      </div>
+    </div>
+
+    <div class="swatch">
+      <div class="color-block" style="background: #996C33;"></div>
+      <div class="text-block">
+        <div class="color-name">Clay Bronze</div>
+        <div class="color-hex">#996C33</div>
+        <div class="color-pms">PMS 4635 C</div>
+      </div>
+    </div>
+
+    <div class="swatch">
+      <div class="color-block" style="background: #E8F0FF;"></div>
+      <div class="text-block">
+        <div class="color-name">Prismatic Glass</div>
+        <div class="color-hex">#E8F0FF</div>
+        <div class="color-pms" style="color: red;">THIS COLOR IS RESTRICTED TO QLED ZONES AND APPROVED BUILDINGS. THIS COLOR IS TRANSPARENT</div>
+      </div>
+    </div>
+  </div>
+
+
+</body></html>
